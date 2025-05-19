@@ -1,16 +1,15 @@
 spring:
   application:
     name: TaskManagerEurekaServer-1
-
+ 
+server:
+  port: 8761
+ 
 eureka:
-  instance:
-    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
+    enabled: false
   server:
     enableSelfPreservation: false
-
-server:
-  port: 8761
 
