@@ -1,6 +1,16 @@
-spring.application.name=TaskManagerEurekaServer-1
-eureka.instance.hostname=localhost
-server.port=8761
-eureka.client.registerWithEureka=false
-eureka.client.fetchRegistry=false
-eureka.server.enableSelfPreservation=false
+spring:
+  application:
+    name: TaskManagerEurekaServer-1
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+
+server:
+  port: 8761
+
